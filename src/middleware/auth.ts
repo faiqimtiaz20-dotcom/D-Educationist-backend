@@ -1,5 +1,6 @@
 import type { NextFunction, Request, Response } from 'express'
 import crypto from 'node:crypto'
+import type { SignOptions } from 'jsonwebtoken'
 import jwt from 'jsonwebtoken'
 import { env } from '../config/env.js'
 import { unauthorized } from '../shared/errors.js'
@@ -20,13 +21,13 @@ export interface TokenPayload {
 
 export function signAccessToken(payload: TokenPayload) {
   return jwt.sign(payload, env.JWT_ACCESS_SECRET, {
-    expiresIn: env.JWT_ACCESS_EXPIRES_IN,
+    expiresIn: env.JWT_ACCESS_EXPIRES_IN as SignOptions['expiresIn'],
   })
 }
 
 export function signRefreshToken(userId: string) {
   return jwt.sign({ sub: userId, type: 'refresh', jti: crypto.randomUUID() }, env.JWT_REFRESH_SECRET, {
-    expiresIn: env.JWT_REFRESH_EXPIRES_IN,
+    expiresIn: env.JWT_REFRESH_EXPIRES_IN as SignOptions['expiresIn'],
   })
 }
 

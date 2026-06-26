@@ -1,4 +1,5 @@
 import { Router } from 'express'
+import type { InvoiceStatus } from '@prisma/client'
 import { prisma } from '../../lib/prisma.js'
 import { parseListQuery, paginated, skipTake } from '../../shared/pagination.js'
 import { getTenantId } from '../../shared/scope.js'
@@ -8,6 +9,12 @@ import { applyListScope } from '../../middleware/auth.js'
 
 export const invoicesRouter = Router()
 
+function parseInvoiceStatus(status: string): InvoiceStatus {
+  if (status === 'Partial Paid') return 'Partial_Paid'
+  if (status === 'Fully Paid') return 'Fully_Paid'
+  return status as InvoiceStatus
+}
+
 invoicesRouter.get('/', async (req, res) => {
   const tenantId = await getTenantId(req)
   const query = parseListQuery(req)
@@ -16,16 +23,7 @@ invoicesRouter.get('/', async (req, res) => {
   const where = {
     tenantId,
     ...scope,
-    ...(query.status
-      ? {
-          status:
-            query.status === 'Partial Paid'
-              ? 'Partial_Paid'
-              : query.status === 'Fully Paid'
-                ? 'Fully_Paid'
-                : query.status,
-        }
-      : {}),
+    ...(query.status ? { status: parseInvoiceStatus(query.status) } : {}),
   }
 
   const [total, rows] = await Promise.all([
@@ -118,16 +116,7 @@ partnerInvoicesRouter.get('/', async (req, res) => {
   const where = {
     tenantId,
     ...(partnerId ? { partnerId } : {}),
-    ...(query.status
-      ? {
-          status:
-            query.status === 'Partial Paid'
-              ? 'Partial_Paid'
-              : query.status === 'Fully Paid'
-                ? 'Fully_Paid'
-                : query.status,
-        }
-      : {}),
+    ...(query.status ? { status: parseInvoiceStatus(query.status) } : {}),
   }
 
   const [total, rows] = await Promise.all([
