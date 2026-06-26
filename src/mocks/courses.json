@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "c1",
+    "country": "Australia",
+    "university": "Global University of Australia",
+    "course": "MBA",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$12,000/yr"
+  },
+  {
+    "id": "c2",
+    "country": "Canada",
+    "university": "Global University of Canada",
+    "course": "MCOM",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$15,000/yr"
+  },
+  {
+    "id": "c3",
+    "country": "UK",
+    "university": "Global University of UK",
+    "course": "BBA",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$18,000/yr"
+  },
+  {
+    "id": "c4",
+    "country": "Singapore",
+    "university": "Global University of Singapore",
+    "course": "MS Computer Science",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$21,000/yr"
+  },
+  {
+    "id": "c5",
+    "country": "Hungary",
+    "university": "Global University of Hungary",
+    "course": "PHD Business",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$24,000/yr"
+  },
+  {
+    "id": "c6",
+    "country": "Germany",
+    "university": "Global University of Germany",
+    "course": "Diploma IT",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$27,000/yr"
+  },
+  {
+    "id": "c7",
+    "country": "USA",
+    "university": "Global University of USA",
+    "course": "BSc Nursing",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$30,000/yr"
+  },
+  {
+    "id": "c8",
+    "country": "Australia",
+    "university": "Metropolitan University of Australia",
+    "course": "MSc Data Science",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$29,500/yr"
+  },
+  {
+    "id": "c9",
+    "country": "Canada",
+    "university": "Metropolitan University of Canada",
+    "course": "BA Psychology",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$32,500/yr"
+  },
+  {
+    "id": "c10",
+    "country": "UK",
+    "university": "Metropolitan University of UK",
+    "course": "LLM",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$35,500/yr"
+  },
+  {
+    "id": "c11",
+    "country": "Singapore",
+    "university": "Metropolitan University of Singapore",
+    "course": "MEng Civil",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$38,500/yr"
+  },
+  {
+    "id": "c12",
+    "country": "Hungary",
+    "university": "Metropolitan University of Hungary",
+    "course": "BCom Accounting",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$41,500/yr"
+  },
+  {
+    "id": "c13",
+    "country": "Germany",
+    "university": "Metropolitan University of Germany",
+    "course": "MSc Biotechnology",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$44,500/yr"
+  },
+  {
+    "id": "c14",
+    "country": "USA",
+    "university": "Metropolitan University of USA",
+    "course": "BArch",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$47,500/yr"
+  },
+  {
+    "id": "c15",
+    "country": "Australia",
+    "university": "Pacific University of Australia",
+    "course": "MA International Relations",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$47,000/yr"
+  },
+  {
+    "id": "c16",
+    "country": "Canada",
+    "university": "Pacific University of Canada",
+    "course": "MBA",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$50,000/yr"
+  },
+  {
+    "id": "c17",
+    "country": "UK",
+    "university": "Pacific University of UK",
+    "course": "MCOM",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$53,000/yr"
+  },
+  {
+    "id": "c18",
+    "country": "Singapore",
+    "university": "Pacific University of Singapore",
+    "course": "BBA",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$56,000/yr"
+  },
+  {
+    "id": "c19",
+    "country": "Hungary",
+    "university": "Pacific University of Hungary",
+    "course": "MS Computer Science",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$59,000/yr"
+  },
+  {
+    "id": "c20",
+    "country": "Germany",
+    "university": "Pacific University of Germany",
+    "course": "PHD Business",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$62,000/yr"
+  },
+  {
+    "id": "c21",
+    "country": "USA",
+    "university": "Pacific University of USA",
+    "course": "Diploma IT",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$15,000/yr"
+  },
+  {
+    "id": "c22",
+    "country": "Australia",
+    "university": "Northern University of Australia",
+    "course": "BSc Nursing",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$14,500/yr"
+  },
+  {
+    "id": "c23",
+    "country": "Canada",
+    "university": "Northern University of Canada",
+    "course": "MSc Data Science",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$17,500/yr"
+  },
+  {
+    "id": "c24",
+    "country": "UK",
+    "university": "Northern University of UK",
+    "course": "BA Psychology",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$20,500/yr"
+  },
+  {
+    "id": "c25",
+    "country": "Singapore",
+    "university": "Northern University of Singapore",
+    "course": "LLM",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$23,500/yr"
+  },
+  {
+    "id": "c26",
+    "country": "Hungary",
+    "university": "Northern University of Hungary",
+    "course": "MEng Civil",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$26,500/yr"
+  },
+  {
+    "id": "c27",
+    "country": "Germany",
+    "university": "Northern University of Germany",
+    "course": "BCom Accounting",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$29,500/yr"
+  },
+  {
+    "id": "c28",
+    "country": "USA",
+    "university": "Northern University of USA",
+    "course": "MSc Biotechnology",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$32,500/yr"
+  },
+  {
+    "id": "c29",
+    "country": "Australia",
+    "university": "Central University of Australia",
+    "course": "BArch",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$32,000/yr"
+  },
+  {
+    "id": "c30",
+    "country": "Canada",
+    "university": "Central University of Canada",
+    "course": "MA International Relations",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$35,000/yr"
+  },
+  {
+    "id": "c31",
+    "country": "UK",
+    "university": "Central University of UK",
+    "course": "MBA",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$38,000/yr"
+  },
+  {
+    "id": "c32",
+    "country": "Singapore",
+    "university": "Central University of Singapore",
+    "course": "MCOM",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$41,000/yr"
+  },
+  {
+    "id": "c33",
+    "country": "Hungary",
+    "university": "Central University of Hungary",
+    "course": "BBA",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$44,000/yr"
+  },
+  {
+    "id": "c34",
+    "country": "Germany",
+    "university": "Central University of Germany",
+    "course": "MS Computer Science",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$47,000/yr"
+  },
+  {
+    "id": "c35",
+    "country": "USA",
+    "university": "Central University of USA",
+    "course": "PHD Business",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$50,000/yr"
+  },
+  {
+    "id": "c36",
+    "country": "Australia",
+    "university": "Royal University of Australia",
+    "course": "Diploma IT",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$49,500/yr"
+  },
+  {
+    "id": "c37",
+    "country": "Canada",
+    "university": "Royal University of Canada",
+    "course": "BSc Nursing",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$52,500/yr"
+  },
+  {
+    "id": "c38",
+    "country": "UK",
+    "university": "Royal University of UK",
+    "course": "MSc Data Science",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$55,500/yr"
+  },
+  {
+    "id": "c39",
+    "country": "Singapore",
+    "university": "Royal University of Singapore",
+    "course": "BA Psychology",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$58,500/yr"
+  },
+  {
+    "id": "c40",
+    "country": "Hungary",
+    "university": "Royal University of Hungary",
+    "course": "LLM",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$61,500/yr"
+  },
+  {
+    "id": "c41",
+    "country": "Germany",
+    "university": "Royal University of Germany",
+    "course": "MEng Civil",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$14,500/yr"
+  },
+  {
+    "id": "c42",
+    "country": "USA",
+    "university": "Royal University of USA",
+    "course": "BCom Accounting",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$17,500/yr"
+  },
+  {
+    "id": "c43",
+    "country": "Australia",
+    "university": "State University of Australia",
+    "course": "MSc Biotechnology",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$17,000/yr"
+  },
+  {
+    "id": "c44",
+    "country": "Canada",
+    "university": "State University of Canada",
+    "course": "BArch",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$20,000/yr"
+  },
+  {
+    "id": "c45",
+    "country": "UK",
+    "university": "State University of UK",
+    "course": "MA International Relations",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$23,000/yr"
+  },
+  {
+    "id": "c46",
+    "country": "Singapore",
+    "university": "State University of Singapore",
+    "course": "MBA",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$26,000/yr"
+  },
+  {
+    "id": "c47",
+    "country": "Hungary",
+    "university": "State University of Hungary",
+    "course": "MCOM",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$29,000/yr"
+  },
+  {
+    "id": "c48",
+    "country": "Germany",
+    "university": "State University of Germany",
+    "course": "BBA",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$32,000/yr"
+  },
+  {
+    "id": "c49",
+    "country": "USA",
+    "university": "State University of USA",
+    "course": "MS Computer Science",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$35,000/yr"
+  },
+  {
+    "id": "c50",
+    "country": "Australia",
+    "university": "National University of Australia",
+    "course": "PHD Business",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$34,500/yr"
+  },
+  {
+    "id": "c51",
+    "country": "Canada",
+    "university": "National University of Canada",
+    "course": "Diploma IT",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$37,500/yr"
+  },
+  {
+    "id": "c52",
+    "country": "UK",
+    "university": "National University of UK",
+    "course": "BSc Nursing",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$40,500/yr"
+  },
+  {
+    "id": "c53",
+    "country": "Singapore",
+    "university": "National University of Singapore",
+    "course": "MSc Data Science",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$43,500/yr"
+  },
+  {
+    "id": "c54",
+    "country": "Hungary",
+    "university": "National University of Hungary",
+    "course": "BA Psychology",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$46,500/yr"
+  },
+  {
+    "id": "c55",
+    "country": "Germany",
+    "university": "National University of Germany",
+    "course": "LLM",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$49,500/yr"
+  },
+  {
+    "id": "c56",
+    "country": "USA",
+    "university": "National University of USA",
+    "course": "MEng Civil",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$52,500/yr"
+  },
+  {
+    "id": "c57",
+    "country": "Australia",
+    "university": "International University of Australia",
+    "course": "BCom Accounting",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$52,000/yr"
+  },
+  {
+    "id": "c58",
+    "country": "Canada",
+    "university": "International University of Canada",
+    "course": "MSc Biotechnology",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$55,000/yr"
+  },
+  {
+    "id": "c59",
+    "country": "UK",
+    "university": "International University of UK",
+    "course": "BArch",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$58,000/yr"
+  },
+  {
+    "id": "c60",
+    "country": "Singapore",
+    "university": "International University of Singapore",
+    "course": "MA International Relations",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$61,000/yr"
+  },
+  {
+    "id": "c61",
+    "country": "Hungary",
+    "university": "International University of Hungary",
+    "course": "MBA",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$14,000/yr"
+  },
+  {
+    "id": "c62",
+    "country": "Germany",
+    "university": "International University of Germany",
+    "course": "MCOM",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$17,000/yr"
+  },
+  {
+    "id": "c63",
+    "country": "USA",
+    "university": "International University of USA",
+    "course": "BBA",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$20,000/yr"
+  },
+  {
+    "id": "c64",
+    "country": "Australia",
+    "university": "City University of Australia",
+    "course": "MS Computer Science",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$19,500/yr"
+  },
+  {
+    "id": "c65",
+    "country": "Canada",
+    "university": "City University of Canada",
+    "course": "PHD Business",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$22,500/yr"
+  },
+  {
+    "id": "c66",
+    "country": "UK",
+    "university": "City University of UK",
+    "course": "Diploma IT",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$25,500/yr"
+  },
+  {
+    "id": "c67",
+    "country": "Singapore",
+    "university": "City University of Singapore",
+    "course": "BSc Nursing",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$28,500/yr"
+  },
+  {
+    "id": "c68",
+    "country": "Hungary",
+    "university": "City University of Hungary",
+    "course": "MSc Data Science",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$31,500/yr"
+  },
+  {
+    "id": "c69",
+    "country": "Germany",
+    "university": "City University of Germany",
+    "course": "BA Psychology",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$34,500/yr"
+  },
+  {
+    "id": "c70",
+    "country": "USA",
+    "university": "City University of USA",
+    "course": "LLM",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$37,500/yr"
+  },
+  {
+    "id": "c71",
+    "country": "Australia",
+    "university": "Global University of Australia",
+    "course": "MEng Civil",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$37,000/yr"
+  },
+  {
+    "id": "c72",
+    "country": "Canada",
+    "university": "Global University of Canada",
+    "course": "BCom Accounting",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$40,000/yr"
+  },
+  {
+    "id": "c73",
+    "country": "UK",
+    "university": "Global University of UK",
+    "course": "MSc Biotechnology",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$43,000/yr"
+  },
+  {
+    "id": "c74",
+    "country": "Singapore",
+    "university": "Global University of Singapore",
+    "course": "BArch",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$46,000/yr"
+  },
+  {
+    "id": "c75",
+    "country": "Hungary",
+    "university": "Global University of Hungary",
+    "course": "MA International Relations",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$49,000/yr"
+  },
+  {
+    "id": "c76",
+    "country": "Germany",
+    "university": "Global University of Germany",
+    "course": "MBA",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$52,000/yr"
+  },
+  {
+    "id": "c77",
+    "country": "USA",
+    "university": "Global University of USA",
+    "course": "MCOM",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$55,000/yr"
+  },
+  {
+    "id": "c78",
+    "country": "Australia",
+    "university": "Metropolitan University of Australia",
+    "course": "BBA",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$54,500/yr"
+  },
+  {
+    "id": "c79",
+    "country": "Canada",
+    "university": "Metropolitan University of Canada",
+    "course": "MS Computer Science",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$57,500/yr"
+  },
+  {
+    "id": "c80",
+    "country": "UK",
+    "university": "Metropolitan University of UK",
+    "course": "PHD Business",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$60,500/yr"
+  },
+  {
+    "id": "c81",
+    "country": "Singapore",
+    "university": "Metropolitan University of Singapore",
+    "course": "Diploma IT",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$13,500/yr"
+  },
+  {
+    "id": "c82",
+    "country": "Hungary",
+    "university": "Metropolitan University of Hungary",
+    "course": "BSc Nursing",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$16,500/yr"
+  },
+  {
+    "id": "c83",
+    "country": "Germany",
+    "university": "Metropolitan University of Germany",
+    "course": "MSc Data Science",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$19,500/yr"
+  },
+  {
+    "id": "c84",
+    "country": "USA",
+    "university": "Metropolitan University of USA",
+    "course": "BA Psychology",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$22,500/yr"
+  },
+  {
+    "id": "c85",
+    "country": "Australia",
+    "university": "Pacific University of Australia",
+    "course": "LLM",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$22,000/yr"
+  },
+  {
+    "id": "c86",
+    "country": "Canada",
+    "university": "Pacific University of Canada",
+    "course": "MEng Civil",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$25,000/yr"
+  },
+  {
+    "id": "c87",
+    "country": "UK",
+    "university": "Pacific University of UK",
+    "course": "BCom Accounting",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$28,000/yr"
+  },
+  {
+    "id": "c88",
+    "country": "Singapore",
+    "university": "Pacific University of Singapore",
+    "course": "MSc Biotechnology",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$31,000/yr"
+  },
+  {
+    "id": "c89",
+    "country": "Hungary",
+    "university": "Pacific University of Hungary",
+    "course": "BArch",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$34,000/yr"
+  },
+  {
+    "id": "c90",
+    "country": "Germany",
+    "university": "Pacific University of Germany",
+    "course": "MA International Relations",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$37,000/yr"
+  },
+  {
+    "id": "c91",
+    "country": "USA",
+    "university": "Pacific University of USA",
+    "course": "MBA",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$40,000/yr"
+  },
+  {
+    "id": "c92",
+    "country": "Australia",
+    "university": "Northern University of Australia",
+    "course": "MCOM",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$39,500/yr"
+  },
+  {
+    "id": "c93",
+    "country": "Canada",
+    "university": "Northern University of Canada",
+    "course": "BBA",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$42,500/yr"
+  },
+  {
+    "id": "c94",
+    "country": "UK",
+    "university": "Northern University of UK",
+    "course": "MS Computer Science",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$45,500/yr"
+  },
+  {
+    "id": "c95",
+    "country": "Singapore",
+    "university": "Northern University of Singapore",
+    "course": "PHD Business",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$48,500/yr"
+  },
+  {
+    "id": "c96",
+    "country": "Hungary",
+    "university": "Northern University of Hungary",
+    "course": "Diploma IT",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$51,500/yr"
+  },
+  {
+    "id": "c97",
+    "country": "Germany",
+    "university": "Northern University of Germany",
+    "course": "BSc Nursing",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$54,500/yr"
+  },
+  {
+    "id": "c98",
+    "country": "USA",
+    "university": "Northern University of USA",
+    "course": "MSc Data Science",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$57,500/yr"
+  },
+  {
+    "id": "c99",
+    "country": "Australia",
+    "university": "Central University of Australia",
+    "course": "BA Psychology",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$57,000/yr"
+  },
+  {
+    "id": "c100",
+    "country": "Canada",
+    "university": "Central University of Canada",
+    "course": "LLM",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$60,000/yr"
+  },
+  {
+    "id": "c101",
+    "country": "UK",
+    "university": "Central University of UK",
+    "course": "MEng Civil",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$13,000/yr"
+  },
+  {
+    "id": "c102",
+    "country": "Singapore",
+    "university": "Central University of Singapore",
+    "course": "BCom Accounting",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$16,000/yr"
+  },
+  {
+    "id": "c103",
+    "country": "Hungary",
+    "university": "Central University of Hungary",
+    "course": "MSc Biotechnology",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$19,000/yr"
+  },
+  {
+    "id": "c104",
+    "country": "Germany",
+    "university": "Central University of Germany",
+    "course": "BArch",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$22,000/yr"
+  },
+  {
+    "id": "c105",
+    "country": "USA",
+    "university": "Central University of USA",
+    "course": "MA International Relations",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$25,000/yr"
+  },
+  {
+    "id": "c106",
+    "country": "Australia",
+    "university": "Royal University of Australia",
+    "course": "MBA",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$24,500/yr"
+  },
+  {
+    "id": "c107",
+    "country": "Canada",
+    "university": "Royal University of Canada",
+    "course": "MCOM",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$27,500/yr"
+  },
+  {
+    "id": "c108",
+    "country": "UK",
+    "university": "Royal University of UK",
+    "course": "BBA",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$30,500/yr"
+  },
+  {
+    "id": "c109",
+    "country": "Singapore",
+    "university": "Royal University of Singapore",
+    "course": "MS Computer Science",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$33,500/yr"
+  },
+  {
+    "id": "c110",
+    "country": "Hungary",
+    "university": "Royal University of Hungary",
+    "course": "PHD Business",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$36,500/yr"
+  },
+  {
+    "id": "c111",
+    "country": "Germany",
+    "university": "Royal University of Germany",
+    "course": "Diploma IT",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$39,500/yr"
+  },
+  {
+    "id": "c112",
+    "country": "USA",
+    "university": "Royal University of USA",
+    "course": "BSc Nursing",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$42,500/yr"
+  },
+  {
+    "id": "c113",
+    "country": "Australia",
+    "university": "State University of Australia",
+    "course": "MSc Data Science",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$42,000/yr"
+  },
+  {
+    "id": "c114",
+    "country": "Canada",
+    "university": "State University of Canada",
+    "course": "BA Psychology",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$45,000/yr"
+  },
+  {
+    "id": "c115",
+    "country": "UK",
+    "university": "State University of UK",
+    "course": "LLM",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$48,000/yr"
+  },
+  {
+    "id": "c116",
+    "country": "Singapore",
+    "university": "State University of Singapore",
+    "course": "MEng Civil",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$51,000/yr"
+  },
+  {
+    "id": "c117",
+    "country": "Hungary",
+    "university": "State University of Hungary",
+    "course": "BCom Accounting",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$54,000/yr"
+  },
+  {
+    "id": "c118",
+    "country": "Germany",
+    "university": "State University of Germany",
+    "course": "MSc Biotechnology",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$57,000/yr"
+  },
+  {
+    "id": "c119",
+    "country": "USA",
+    "university": "State University of USA",
+    "course": "BArch",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$60,000/yr"
+  },
+  {
+    "id": "c120",
+    "country": "Australia",
+    "university": "National University of Australia",
+    "course": "MA International Relations",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$59,500/yr"
+  },
+  {
+    "id": "c121",
+    "country": "Canada",
+    "university": "National University of Canada",
+    "course": "MBA",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$12,500/yr"
+  },
+  {
+    "id": "c122",
+    "country": "UK",
+    "university": "National University of UK",
+    "course": "MCOM",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$15,500/yr"
+  },
+  {
+    "id": "c123",
+    "country": "Singapore",
+    "university": "National University of Singapore",
+    "course": "BBA",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$18,500/yr"
+  },
+  {
+    "id": "c124",
+    "country": "Hungary",
+    "university": "National University of Hungary",
+    "course": "MS Computer Science",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$21,500/yr"
+  },
+  {
+    "id": "c125",
+    "country": "Germany",
+    "university": "National University of Germany",
+    "course": "PHD Business",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$24,500/yr"
+  },
+  {
+    "id": "c126",
+    "country": "USA",
+    "university": "National University of USA",
+    "course": "Diploma IT",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$27,500/yr"
+  },
+  {
+    "id": "c127",
+    "country": "Australia",
+    "university": "International University of Australia",
+    "course": "BSc Nursing",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$27,000/yr"
+  },
+  {
+    "id": "c128",
+    "country": "Canada",
+    "university": "International University of Canada",
+    "course": "MSc Data Science",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$30,000/yr"
+  },
+  {
+    "id": "c129",
+    "country": "UK",
+    "university": "International University of UK",
+    "course": "BA Psychology",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$33,000/yr"
+  },
+  {
+    "id": "c130",
+    "country": "Singapore",
+    "university": "International University of Singapore",
+    "course": "LLM",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$36,000/yr"
+  },
+  {
+    "id": "c131",
+    "country": "Hungary",
+    "university": "International University of Hungary",
+    "course": "MEng Civil",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$39,000/yr"
+  },
+  {
+    "id": "c132",
+    "country": "Germany",
+    "university": "International University of Germany",
+    "course": "BCom Accounting",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$42,000/yr"
+  },
+  {
+    "id": "c133",
+    "country": "USA",
+    "university": "International University of USA",
+    "course": "MSc Biotechnology",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$45,000/yr"
+  },
+  {
+    "id": "c134",
+    "country": "Australia",
+    "university": "City University of Australia",
+    "course": "BArch",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$44,500/yr"
+  },
+  {
+    "id": "c135",
+    "country": "Canada",
+    "university": "City University of Canada",
+    "course": "MA International Relations",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$47,500/yr"
+  },
+  {
+    "id": "c136",
+    "country": "UK",
+    "university": "City University of UK",
+    "course": "MBA",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$50,500/yr"
+  },
+  {
+    "id": "c137",
+    "country": "Singapore",
+    "university": "City University of Singapore",
+    "course": "MCOM",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$53,500/yr"
+  },
+  {
+    "id": "c138",
+    "country": "Hungary",
+    "university": "City University of Hungary",
+    "course": "BBA",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$56,500/yr"
+  },
+  {
+    "id": "c139",
+    "country": "Germany",
+    "university": "City University of Germany",
+    "course": "MS Computer Science",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$59,500/yr"
+  },
+  {
+    "id": "c140",
+    "country": "USA",
+    "university": "City University of USA",
+    "course": "PHD Business",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$62,500/yr"
+  },
+  {
+    "id": "c141",
+    "country": "Australia",
+    "university": "Global University of Australia",
+    "course": "Diploma IT",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$12,000/yr"
+  },
+  {
+    "id": "c142",
+    "country": "Canada",
+    "university": "Global University of Canada",
+    "course": "BSc Nursing",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$15,000/yr"
+  },
+  {
+    "id": "c143",
+    "country": "UK",
+    "university": "Global University of UK",
+    "course": "MSc Data Science",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$18,000/yr"
+  },
+  {
+    "id": "c144",
+    "country": "Singapore",
+    "university": "Global University of Singapore",
+    "course": "BA Psychology",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$21,000/yr"
+  },
+  {
+    "id": "c145",
+    "country": "Hungary",
+    "university": "Global University of Hungary",
+    "course": "LLM",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$24,000/yr"
+  },
+  {
+    "id": "c146",
+    "country": "Germany",
+    "university": "Global University of Germany",
+    "course": "MEng Civil",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$27,000/yr"
+  },
+  {
+    "id": "c147",
+    "country": "USA",
+    "university": "Global University of USA",
+    "course": "BCom Accounting",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$30,000/yr"
+  },
+  {
+    "id": "c148",
+    "country": "Australia",
+    "university": "Metropolitan University of Australia",
+    "course": "MSc Biotechnology",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$29,500/yr"
+  },
+  {
+    "id": "c149",
+    "country": "Canada",
+    "university": "Metropolitan University of Canada",
+    "course": "BArch",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$32,500/yr"
+  },
+  {
+    "id": "c150",
+    "country": "UK",
+    "university": "Metropolitan University of UK",
+    "course": "MA International Relations",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$35,500/yr"
+  },
+  {
+    "id": "c151",
+    "country": "Singapore",
+    "university": "Metropolitan University of Singapore",
+    "course": "MBA",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$38,500/yr"
+  },
+  {
+    "id": "c152",
+    "country": "Hungary",
+    "university": "Metropolitan University of Hungary",
+    "course": "MCOM",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$41,500/yr"
+  },
+  {
+    "id": "c153",
+    "country": "Germany",
+    "university": "Metropolitan University of Germany",
+    "course": "BBA",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$44,500/yr"
+  },
+  {
+    "id": "c154",
+    "country": "USA",
+    "university": "Metropolitan University of USA",
+    "course": "MS Computer Science",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$47,500/yr"
+  },
+  {
+    "id": "c155",
+    "country": "Australia",
+    "university": "Pacific University of Australia",
+    "course": "PHD Business",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$47,000/yr"
+  },
+  {
+    "id": "c156",
+    "country": "Canada",
+    "university": "Pacific University of Canada",
+    "course": "Diploma IT",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$50,000/yr"
+  },
+  {
+    "id": "c157",
+    "country": "UK",
+    "university": "Pacific University of UK",
+    "course": "BSc Nursing",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$53,000/yr"
+  },
+  {
+    "id": "c158",
+    "country": "Singapore",
+    "university": "Pacific University of Singapore",
+    "course": "MSc Data Science",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$56,000/yr"
+  },
+  {
+    "id": "c159",
+    "country": "Hungary",
+    "university": "Pacific University of Hungary",
+    "course": "BA Psychology",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$59,000/yr"
+  },
+  {
+    "id": "c160",
+    "country": "Germany",
+    "university": "Pacific University of Germany",
+    "course": "LLM",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$62,000/yr"
+  },
+  {
+    "id": "c161",
+    "country": "USA",
+    "university": "Pacific University of USA",
+    "course": "MEng Civil",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$15,000/yr"
+  },
+  {
+    "id": "c162",
+    "country": "Australia",
+    "university": "Northern University of Australia",
+    "course": "BCom Accounting",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$14,500/yr"
+  },
+  {
+    "id": "c163",
+    "country": "Canada",
+    "university": "Northern University of Canada",
+    "course": "MSc Biotechnology",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$17,500/yr"
+  },
+  {
+    "id": "c164",
+    "country": "UK",
+    "university": "Northern University of UK",
+    "course": "BArch",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$20,500/yr"
+  },
+  {
+    "id": "c165",
+    "country": "Singapore",
+    "university": "Northern University of Singapore",
+    "course": "MA International Relations",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$23,500/yr"
+  },
+  {
+    "id": "c166",
+    "country": "Hungary",
+    "university": "Northern University of Hungary",
+    "course": "MBA",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$26,500/yr"
+  },
+  {
+    "id": "c167",
+    "country": "Germany",
+    "university": "Northern University of Germany",
+    "course": "MCOM",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$29,500/yr"
+  },
+  {
+    "id": "c168",
+    "country": "USA",
+    "university": "Northern University of USA",
+    "course": "BBA",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$32,500/yr"
+  },
+  {
+    "id": "c169",
+    "country": "Australia",
+    "university": "Central University of Australia",
+    "course": "MS Computer Science",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$32,000/yr"
+  },
+  {
+    "id": "c170",
+    "country": "Canada",
+    "university": "Central University of Canada",
+    "course": "PHD Business",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$35,000/yr"
+  },
+  {
+    "id": "c171",
+    "country": "UK",
+    "university": "Central University of UK",
+    "course": "Diploma IT",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$38,000/yr"
+  },
+  {
+    "id": "c172",
+    "country": "Singapore",
+    "university": "Central University of Singapore",
+    "course": "BSc Nursing",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$41,000/yr"
+  },
+  {
+    "id": "c173",
+    "country": "Hungary",
+    "university": "Central University of Hungary",
+    "course": "MSc Data Science",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$44,000/yr"
+  },
+  {
+    "id": "c174",
+    "country": "Germany",
+    "university": "Central University of Germany",
+    "course": "BA Psychology",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$47,000/yr"
+  },
+  {
+    "id": "c175",
+    "country": "USA",
+    "university": "Central University of USA",
+    "course": "LLM",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$50,000/yr"
+  },
+  {
+    "id": "c176",
+    "country": "Australia",
+    "university": "Royal University of Australia",
+    "course": "MEng Civil",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$49,500/yr"
+  },
+  {
+    "id": "c177",
+    "country": "Canada",
+    "university": "Royal University of Canada",
+    "course": "BCom Accounting",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$52,500/yr"
+  },
+  {
+    "id": "c178",
+    "country": "UK",
+    "university": "Royal University of UK",
+    "course": "MSc Biotechnology",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$55,500/yr"
+  },
+  {
+    "id": "c179",
+    "country": "Singapore",
+    "university": "Royal University of Singapore",
+    "course": "BArch",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$58,500/yr"
+  },
+  {
+    "id": "c180",
+    "country": "Hungary",
+    "university": "Royal University of Hungary",
+    "course": "MA International Relations",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$61,500/yr"
+  },
+  {
+    "id": "c181",
+    "country": "Germany",
+    "university": "Royal University of Germany",
+    "course": "MBA",
+    "level": "Post Graduation",
+    "intake": "Jan-2026",
+    "duration": "1 year",
+    "tuition": "$14,500/yr"
+  },
+  {
+    "id": "c182",
+    "country": "USA",
+    "university": "Royal University of USA",
+    "course": "MCOM",
+    "level": "Under Graduation",
+    "intake": "Apr-2026",
+    "duration": "2 years",
+    "tuition": "$17,500/yr"
+  },
+  {
+    "id": "c183",
+    "country": "Australia",
+    "university": "State University of Australia",
+    "course": "BBA",
+    "level": "PHD",
+    "intake": "Jul-2026",
+    "duration": "3 years",
+    "tuition": "$17,000/yr"
+  },
+  {
+    "id": "c184",
+    "country": "Canada",
+    "university": "State University of Canada",
+    "course": "MS Computer Science",
+    "level": "Diploma",
+    "intake": "Nov-2026",
+    "duration": "4 years",
+    "tuition": "$20,000/yr"
+  },
+  {
+    "id": "c185",
+    "country": "UK",
+    "university": "State University of UK",
+    "course": "PHD Business",
+    "level": "Post Graduation",
+    "intake": "Sep-2026",
+    "duration": "1 year",
+    "tuition": "$23,000/yr"
+  },
+  {
+    "id": "c186",
+    "country": "Singapore",
+    "university": "State University of Singapore",
+    "course": "Diploma IT",
+    "level": "Under Graduation",
+    "intake": "Jan-2026",
+    "duration": "2 years",
+    "tuition": "$26,000/yr"
+  },
+  {
+    "id": "c187",
+    "country": "Hungary",
+    "university": "State University of Hungary",
+    "course": "BSc Nursing",
+    "level": "PHD",
+    "intake": "Apr-2026",
+    "duration": "3 years",
+    "tuition": "$29,000/yr"
+  },
+  {
+    "id": "c188",
+    "country": "Germany",
+    "university": "State University of Germany",
+    "course": "MSc Data Science",
+    "level": "Diploma",
+    "intake": "Jul-2026",
+    "duration": "4 years",
+    "tuition": "$32,000/yr"
+  },
+  {
+    "id": "c189",
+    "country": "USA",
+    "university": "State University of USA",
+    "course": "BA Psychology",
+    "level": "Post Graduation",
+    "intake": "Nov-2026",
+    "duration": "1 year",
+    "tuition": "$35,000/yr"
+  },
+  {
+    "id": "c190",
+    "country": "Australia",
+    "university": "National University of Australia",
+    "course": "LLM",
+    "level": "Under Graduation",
+    "intake": "Sep-2026",
+    "duration": "2 years",
+    "tuition": "$34,500/yr"
+  },
+  {
+    "id": "c191",
+    "country": "Canada",
+    "university": "National University of Canada",
+    "course": "MEng Civil",
+    "level": "PHD",
+    "intake": "Jan-2026",
+    "duration": "3 years",
+    "tuition": "$37,500/yr"
+  },
+  {
+    "id": "c192",
+    "country": "UK",
+    "university": "National University of UK",
+    "course": "BCom Accounting",
+    "level": "Diploma",
+    "intake": "Apr-2026",
+    "duration": "4 years",
+    "tuition": "$40,500/yr"
+  },
+  {
+    "id": "c193",
+    "country": "Singapore",
+    "university": "National University of Singapore",
+    "course": "MSc Biotechnology",
+    "level": "Post Graduation",
+    "intake": "Jul-2026",
+    "duration": "1 year",
+    "tuition": "$43,500/yr"
+  },
+  {
+    "id": "c194",
+    "country": "Hungary",
+    "university": "National University of Hungary",
+    "course": "BArch",
+    "level": "Under Graduation",
+    "intake": "Nov-2026",
+    "duration": "2 years",
+    "tuition": "$46,500/yr"
+  },
+  {
+    "id": "c195",
+    "country": "Germany",
+    "university": "National University of Germany",
+    "course": "MA International Relations",
+    "level": "PHD",
+    "intake": "Sep-2026",
+    "duration": "3 years",
+    "tuition": "$49,500/yr"
+  },
+  {
+    "id": "c196",
+    "country": "USA",
+    "university": "National University of USA",
+    "course": "MBA",
+    "level": "Diploma",
+    "intake": "Jan-2026",
+    "duration": "4 years",
+    "tuition": "$52,500/yr"
+  },
+  {
+    "id": "c197",
+    "country": "Australia",
+    "university": "International University of Australia",
+    "course": "MCOM",
+    "level": "Post Graduation",
+    "intake": "Apr-2026",
+    "duration": "1 year",
+    "tuition": "$52,000/yr"
+  },
+  {
+    "id": "c198",
+    "country": "Canada",
+    "university": "International University of Canada",
+    "course": "BBA",
+    "level": "Under Graduation",
+    "intake": "Jul-2026",
+    "duration": "2 years",
+    "tuition": "$55,000/yr"
+  },
+  {
+    "id": "c199",
+    "country": "UK",
+    "university": "International University of UK",
+    "course": "MS Computer Science",
+    "level": "PHD",
+    "intake": "Nov-2026",
+    "duration": "3 years",
+    "tuition": "$58,000/yr"
+  },
+  {
+    "id": "c200",
+    "country": "Singapore",
+    "university": "International University of Singapore",
+    "course": "PHD Business",
+    "level": "Diploma",
+    "intake": "Sep-2026",
+    "duration": "4 years",
+    "tuition": "$61,000/yr"
+  }
+]

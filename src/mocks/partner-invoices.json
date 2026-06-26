@@ -1,0 +1,36 @@
+[
+  {
+    "id": "pi1",
+    "invoiceNo": "DE/S/24/005",
+    "studentCount": 3,
+    "netCommission": 5000,
+    "currency": "GBP",
+    "taxPercent": 18,
+    "taxAmount": 900,
+    "totalCommission": 5900,
+    "receivedCommission": 3000,
+    "pendingCommission": 2900,
+    "status": "Partial Paid",
+    "createdBy": "D' Educationist (Ahmed Raza)",
+    "partnerId": "p1",
+    "createdAt": "2026-02-08T15:00:00Z",
+    "updatedAt": "2026-01-10T04:00:00Z"
+  },
+  {
+    "id": "pi2",
+    "invoiceNo": "DE/S/24/006",
+    "studentCount": 2,
+    "netCommission": 3500,
+    "currency": "PKR",
+    "taxPercent": 18,
+    "taxAmount": 630,
+    "totalCommission": 4130,
+    "receivedCommission": 0,
+    "pendingCommission": 4130,
+    "status": "Pending",
+    "createdBy": "D' Educationist (Ahmed Raza)",
+    "partnerId": "p1",
+    "createdAt": "2026-05-09T18:00:00Z",
+    "updatedAt": "2026-03-26T03:00:00Z"
+  }
+]

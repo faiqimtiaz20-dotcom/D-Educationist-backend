@@ -6,7 +6,7 @@ import { DocStatus, InvoiceStatus, PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const mockDir = join(__dirname, '../../../Frontend/krs-crm-ui/src/mocks/data')
+const mockDir = join(__dirname, '../src/mocks')
 
 function loadJson<T>(name: string): T {
   return JSON.parse(readFileSync(join(mockDir, name), 'utf-8')) as T

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "uc1",
+    "invoiceNo": "DE/2024/001",
+    "country": "Canada",
+    "university": "University of Victoria",
+    "studentCount": 2,
+    "totalCommission": 18526,
+    "receivedCommission": 1378,
+    "pendingCommission": 17148,
+    "status": "Partial Paid",
+    "createdBy": "D' Educationist (Operational Head)",
+    "commissionType": "Uni. Flat Comm.",
+    "commissionSubType": "Percentage",
+    "createdAt": "2026-04-23T03:00:00Z",
+    "updatedAt": "2026-05-15T14:00:00Z"
+  }
+]
