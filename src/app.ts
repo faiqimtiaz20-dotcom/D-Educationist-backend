@@ -41,7 +41,18 @@ export function createApp() {
   const app = express()
 
   app.use(helmet())
-  app.use(cors({ origin: env.CORS_ORIGIN, credentials: true }))
+  app.use(
+    cors({
+      origin(origin, callback) {
+        if (!origin || origin.replace(/\/+$/, '') === env.CORS_ORIGIN) {
+          callback(null, origin ?? env.CORS_ORIGIN)
+          return
+        }
+        callback(new Error('Not allowed by CORS'))
+      },
+      credentials: true,
+    }),
+  )
   app.use(express.json({ limit: '2mb' }))
   app.use(
     rateLimit({
