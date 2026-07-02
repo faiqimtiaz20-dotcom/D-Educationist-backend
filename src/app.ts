@@ -4,7 +4,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
 import { pinoHttp } from 'pino-http'
-import { env } from './config/env.js'
+import { env, isAllowedCorsOrigin } from './config/env.js'
 import { prisma } from './lib/prisma.js'
 import { authenticate } from './middleware/auth.js'
 import { errorHandler } from './middleware/errorHandler.js'
@@ -44,8 +44,8 @@ export function createApp() {
   app.use(
     cors({
       origin(origin, callback) {
-        if (!origin || origin.replace(/\/+$/, '') === env.CORS_ORIGIN) {
-          callback(null, origin ?? env.CORS_ORIGIN)
+        if (isAllowedCorsOrigin(origin)) {
+          callback(null, origin ?? env.CORS_ORIGIN[0])
           return
         }
         callback(new Error('Not allowed by CORS'))

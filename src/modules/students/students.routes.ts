@@ -16,6 +16,8 @@ const include = {
   workExperience: true,
 }
 
+type SchedulePayload = { date?: string; time?: string; remarks?: string }
+
 studentsRouter.get('/', async (req, res) => {
   const tenantId = await getTenantId(req)
   const query = parseListQuery(req)
@@ -121,6 +123,8 @@ studentsRouter.post('/', async (req, res) => {
   const tenantId = await getTenantId(req)
   const body = req.body
   const branchId = body.branchId ?? await resolveBranchId(tenantId, body.branch ?? 'Head Office')
+  const followUp = body.followUp as SchedulePayload | undefined
+  const appointment = body.appointment as SchedulePayload | undefined
 
   const created = await prisma.student.create({
     data: {
@@ -152,18 +156,37 @@ studentsRouter.post('/', async (req, res) => {
       passportExpiry: body.passportExpiry ? new Date(body.passportExpiry) : null,
       assignedBy: body.assignedBy ?? "D' Educationist (Operational Head)",
       assignedTo: body.assignedTo ?? 'Counsellor A',
+      followUpDate: followUp?.date ? new Date(followUp.date) : null,
+      followUpTime: followUp?.time ?? null,
+      followUpRemarks: followUp?.remarks ?? null,
+      appointmentDate: appointment?.date ? new Date(appointment.date) : null,
+      appointmentTime: appointment?.time ?? null,
+      appointmentRemarks: appointment?.remarks ?? null,
       academics: body.academics?.length
-        ? { create: body.academics }
+        ? {
+            create: body.academics.map((a: Record<string, string>) => ({
+              qualification: a.qualification,
+              subjects: a.subjects,
+              college: a.college,
+              percentage: a.percentage,
+              backlogs: a.backlogs,
+              yearOfPassing: a.yearOfPassing,
+            })),
+          }
         : undefined,
       proficiencyTests: body.proficiencyTests?.length
         ? { create: body.proficiencyTests.map((t: { testDate?: string }) => ({ ...t, testDate: t.testDate ? new Date(t.testDate) : null })) }
         : undefined,
       workExperience: body.workExperience?.length
-        ? { create: body.workExperience.map((w: { startDate?: string; endDate?: string }) => ({
-            ...w,
-            startDate: w.startDate ? new Date(w.startDate) : null,
-            endDate: w.endDate ? new Date(w.endDate) : null,
-          })) }
+        ? {
+            create: body.workExperience.map((w: Record<string, string>) => ({
+              companyName: w.companyName,
+              position: w.position,
+              startDate: w.startDate ? new Date(w.startDate) : null,
+              endDate: w.endDate ? new Date(w.endDate) : null,
+              totalExperience: w.totalExperience,
+            })),
+          }
         : undefined,
     },
     include,

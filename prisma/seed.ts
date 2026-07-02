@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import bcrypt from 'bcryptjs'
 import { DocStatus, InvoiceStatus, PrismaClient } from '@prisma/client'
+import { DEFAULT_BRANCHES } from '../src/lib/defaultBranches.js'
 
 const prisma = new PrismaClient()
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -83,9 +84,20 @@ export async function seedDatabase() {
     },
   })
 
-  const branch = await prisma.branch.create({
-    data: { tenantId: tenant.id, name: 'Head Office', code: 'HO' },
-  })
+  const branchMap: Record<string, { id: string }> = {}
+  for (const { name, code } of DEFAULT_BRANCHES) {
+    const created = await prisma.branch.create({
+      data: { tenantId: tenant.id, name, code },
+    })
+    branchMap[name] = created
+  }
+
+  const branch = branchMap['Head Office']
+
+  function branchIdFor(record: Record<string, unknown>) {
+    const name = record.branch ? String(record.branch) : 'Head Office'
+    return branchMap[name]?.id ?? branch.id
+  }
 
   const partner = await prisma.partner.create({
     data: {
@@ -119,7 +131,7 @@ export async function seedDatabase() {
     const created = await prisma.student.create({
       data: {
         tenantId: tenant.id,
-        branchId: branch.id,
+        branchId: branchIdFor(s),
         partnerId,
         studentRef: String(s.studentId),
         firstName: String(s.firstName),
@@ -229,7 +241,7 @@ export async function seedDatabase() {
     const created = await prisma.enquiry.create({
       data: {
         tenantId: tenant.id,
-        branchId: branch.id,
+        branchId: branchIdFor(e),
         partnerId: e.partnerId ? partnerMap[String(e.partnerId)] ?? null : null,
         firstName: String(e.firstName),
         lastName: String(e.lastName),
@@ -259,7 +271,7 @@ export async function seedDatabase() {
       data: {
         tenantId: tenant.id,
         studentId,
-        branchId: branch.id,
+        branchId: branchIdFor(a),
         partnerId: a.partnerId ? partnerMap[String(a.partnerId)] ?? null : null,
         applicationCount: Number(a.applicationCount ?? 1),
         docStatus: docStatus(a.docStatus as string),
@@ -289,7 +301,7 @@ export async function seedDatabase() {
       data: {
         tenantId: tenant.id,
         studentId,
-        branchId: branch.id,
+        branchId: branchIdFor(v),
         partnerId: v.partnerId ? partnerMap[String(v.partnerId)] ?? null : null,
         docStatus: docStatus(v.docStatus as string),
         appliedCountry: String(v.appliedCountry),
@@ -315,7 +327,7 @@ export async function seedDatabase() {
       data: {
         tenantId: tenant.id,
         studentId,
-        branchId: branch.id,
+        branchId: branchIdFor(d),
         partnerId: d.partnerId ? partnerMap[String(d.partnerId)] ?? null : null,
         deferIntake: String(d.deferIntake ?? d.intake ?? ''),
         deferReason: String(d.deferReason ?? ''),
@@ -341,7 +353,7 @@ export async function seedDatabase() {
       data: {
         tenantId: tenant.id,
         studentId,
-        branchId: branch.id,
+        branchId: branchIdFor(e),
         partnerId: e.partnerId ? partnerMap[String(e.partnerId)] ?? null : null,
         appliedCountry: String(e.appliedCountry),
         appliedUniversity: String(e.appliedUniversity),
@@ -491,7 +503,7 @@ export async function seedDatabase() {
   }
 
   const masterSeeds: Record<string, string[]> = {
-    branch: ['Head Office', 'Lahore', 'Karachi'],
+    branch: ['Head Office', 'Lahore', 'Karachi', 'Islamabad'],
     source: ['Facebook', 'SMS', 'Walking', 'Registration Form', 'Partner Referral'],
     'enquiry-status': ['New Enquiry', 'Follow-up Required', 'Interested', 'Not Interested'],
     'student-status': ['New Student', 'On Hold', 'Active', 'Completed'],

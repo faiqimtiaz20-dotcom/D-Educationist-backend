@@ -1,6 +1,7 @@
 import { execSync } from 'node:child_process'
 import { prisma } from './lib/prisma.js'
 import { env } from './config/env.js'
+import { ensureDefaultBranches } from './lib/defaultBranches.js'
 
 function run(command: string) {
   execSync(command, { stdio: 'inherit', env: process.env })
@@ -14,6 +15,8 @@ export async function bootstrapDatabase() {
 
   console.log('[bootstrap] Running database migrations...')
   run('npx prisma migrate deploy')
+
+  await ensureDefaultBranches()
 
   const tenantCount = await prisma.tenant.count()
   if (tenantCount === 0) {

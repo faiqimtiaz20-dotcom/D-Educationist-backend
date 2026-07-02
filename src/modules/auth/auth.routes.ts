@@ -7,7 +7,7 @@ import { validateBody } from '../../middleware/errorHandler.js'
 import { authenticate, signAccessToken, signRefreshToken, verifyRefreshToken } from '../../middleware/auth.js'
 import { badRequest, unauthorized } from '../../shared/errors.js'
 import { mapAuthUser } from '../../shared/mappers.js'
-import { env } from '../../config/env.js'
+import { env, frontendUrl } from '../../config/env.js'
 
 const loginSchema = z.object({
   username: z.string().min(1),
@@ -149,7 +149,7 @@ authRouter.post('/forgot-password', validateBody(forgotSchema), async (req, res)
     await prisma.passwordResetToken.deleteMany({ where: { userId: user.id } })
     await prisma.passwordResetToken.create({ data: { userId: user.id, tokenHash, expiresAt } })
 
-    const resetUrl = `${env.CORS_ORIGIN}/reset-password?token=${token}`
+    const resetUrl = `${frontendUrl}/reset-password?token=${token}`
     if (env.NODE_ENV === 'development') {
       console.log(`[password-reset] ${email}: ${resetUrl}`)
     }

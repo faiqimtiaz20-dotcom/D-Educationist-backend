@@ -49,7 +49,7 @@ Copy `.env.example` to `.env`:
 | `JWT_ACCESS_SECRET` | Min 32 chars |
 | `JWT_REFRESH_SECRET` | Min 32 chars |
 | `PORT` | API port (default `4000`) |
-| `CORS_ORIGIN` | Frontend origin (default `http://localhost:5173`) |
+| `CORS_ORIGIN` | Comma-separated frontend origins (default `http://localhost:5173`) |
 
 ## Demo credentials
 
